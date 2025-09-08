@@ -31,8 +31,8 @@ mysqli_query($db,$query) or die ('Error in updating Database');
 
 ### Proof of Concept
 ### 1. Request in Burp
--    A normal login attempt was intercepted with Burp Suite.
--    The raw request was saved into a file sqlfile for sqlmap testing.
+-    A normal add of patient attempt was intercepted with Burp Suite.
+-    The raw request was saved into a file for sqlmap testing.
   
 ![](./sqlmap.gif)
 
